@@ -1,0 +1,69 @@
+*{margin: 0; padding: 0;}
+img{
+	width: 100%;
+	height: 100%;
+	margin-left: -34px;
+}
+.header{
+	background-color: #3B5998;
+	height: 85px;
+}
+.header .logo{
+	color: white;
+	font-family: tahoma;
+	font-size: 33px;
+	font-weight: bold;
+	vertical-align: center;
+	width: 40%;
+	position: absolute;
+	top: 3%;
+	left: 10%;
+}
+.header table{
+	border-collapse: collapse;
+	background-color: transparent;
+	float: right;
+	margin-right: 140px;
+	margin-top: 4px;
+	color: white;
+}
+.content{
+	height: 570px;
+	background: linear-gradient(white,#0000ff24);
+}
+.wrap{
+	width: 80%;
+	margin: auto;
+}
+.content .trai{
+	width: 515px;
+}
+.content .phai{
+	float: right;
+	width: 450px;
+	line-height: 30px;
+	margin-top: -252px;
+}
+.phai input{
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding-left: 10px;
+}
+.phai input[placeholder="Mobile number or email address"] , .phai input[type="password"]
+{
+	width: 86%;
+}
+.footer{
+	margin-top: 20px;
+	font-size: 14px;
+}
+.footer .con{
+	width: 80%;
+	margin: auto;
+}
+.con a{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 14px;
+}
